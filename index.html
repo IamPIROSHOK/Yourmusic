@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/logo_picture.svg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/9e33fc4300.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/main.css">
+    <title>YourMusic</title>
+</head>
+
+<body>
+    <!--  -->
+    <input type="checkbox" id="nav-check" style="display: none;" autocomplete="off">
+
+    <label class="nav__button" for="nav-check">
+        <div class="nav__btn">
+            <div class="nav__btn__line1"></div>
+            <div class="nav__btn__line2"></div>
+            <div class="nav__btn__line3"></div>
+            <div class="nav__btn__line4"></div>
+        </div>
+    </label>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <img src="assets/images/metronome.svg" alt="" class="header__metronome">
+
+                <img src="assets/images/logo.svg" alt="" class="header__logo">
+
+
+                <div class="header__auth_navbtn">
+
+                    <div class="header__auth">
+                        <a class="header__login auth__btn" href="#">Войти</a>
+                        <alock')" class="header__signup auth__btn" href="#">Регистрация</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <label for="nav-check" id="menu" class="menu">
+        <div class="menu__inner">
+
+            <ul class="menu__items">
+                <li><a href="#">Аккорды</a>
+                    <ul>
+                        <li><a href="#">Аккорды песен</a></li>
+                        <li><a href="#">Аппликатура</a></li>
+                        <li><a href="#">Транспонирование</a></li>
+                        <li><a href="#">Часто используемые аккорды и тональности</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Гаммы</a></li>
+                <li><a href="#">Барабанные биты</a></li>
+                <li><a href="#">Упражнения</a></li>
+                <li><a href="#">Разборы песен</a></li>
+                <li><a href="#">Тесты на слух</a>
+                    <ul>
+                        <li><a href="#">Тест по аккордам</a></li>
+                        <li><a href="#">Тест по частотам</a></li>
+                    </ul>
+                </li>
+                <li><a class="menu__btn__vip" href="#">VIP</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Обратная связь</a></li>
+            </ul>
+
+
+        </div>
+
+    </label>
+
+    <!-- HELLO -->
+
+    <div class="hello container ">
+        <video width="100%" muted loop autoplay id="myVideo">
+            <source src="assets/hello_background.webm" type='video/webm; codecs="vp8, vorbis"' />
+        </video>
+
+        <div class="hello__title">
+            <strong>Постигай азы</strong> музыки вместе с нами. На <strong>Your Music</strong> ты сможешь найти
+            много полезных упражнений которые
+            прокачают тебя как музыканта. Начни прямо сейчас!
+        </div>
+        <button class="contactUs">Напишите нам</button>
+
+        <div class="communication">
+            <form class="communication__form">
+                <div class="communication__header">
+                    <span>Напишите нам</span>
+                    <a><i class="form__close fas fa-times"></i></a>
+                </div>
+                <div class="communication__content">
+                    <span>Имя</span>
+                    <input name="name" type="text" placeholder="Имя">
+                    <span>Ваша почта</span>
+                    <input name="mail" type="text" placeholder="Почта">
+                    <span>Текст письма</span>
+                    <textarea name="text" placeholder="Сообщение..."></textarea>
+                </div>
+                <div class="form__buttons">
+                    <button class="form__confirm">Отправить</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <section class="section">
+        <div class="container">
+
+            <div class="section__title">
+                <img src="assets/images/hits/fire.png" alt="">
+                Хиты
+                <img src="assets/images/hits/fire.png" alt="">
+            </div>
+
+            <div class="hits">
+
+                <div class="hits__item" style="color: #9EAD3F;">
+                    <img class="hit__picture" src="assets/images/hits/1.png" alt="">
+                    <div class="hit__title">Morgenstern - Я съел деда</div>
+                    <i class="hit__play fas fa-play"></i>
+                </div>
+                <div class="hits__item" style="color: #fff;">
+                    <img class="hit__picture" src="assets/images/hits/2.png" alt="">
+                    <div class="hit__title">SLAVA MARLOW - Ты горишь как огонь</div>
+                    <i class="hit__play fas fa-play"></i>
+                </div>
+                <div class="hits__item" style="color: #52BDEB;">
+                    <img class="hit__picture" src="assets/images/hits/3.png" alt="">
+                    <div class="hit__title">Rakhim - Cиний Ламборhini</div>
+                    <i class="hit__play fas fa-play"></i>
+                </div>
+                <div class="hits__item" style="color: #EBC052;">
+                    <img class="hit__picture" src="assets/images/hits/4.png" alt="">
+                    <div class="hit__title">JONY - KoMeTa</div>
+                    <i class="hit__play fas fa-play"></i>
+                </div>
+                <div class="hits__item" style="color: #15609A;">
+                    <img class="hit__picture" src="assets/images/hits/5.png" alt="">
+                    <div class="hit__title">Король и Шут - Кукла колдуна</div>
+                    <i class="hit__play fas fa-play"></i>
+                </div>
+                <div class="hits__item" style="color: #fff;">
+                    <img class="hit__picture" src="assets/images/hits/6.png" alt="">
+                    <div class="hit__title">Ивт-160 - Поступай на ФЭВТ</div>
+                    <i class="hit__play fas fa-play"></i>
+                </div>
+                <div class="hits__item" style="color: #BD3030;">
+                    <img class="hit__picture" src="assets/images/hits/7.png" alt="">
+                    <div class="hit__title">Artik & ASti - Девочка танцуй</div>
+                    <i class="hit__play fas fa-play"></i>
+                </div>
+                <div class="hits__item" style="color: #0FB7AD;">
+                    <img class="hit__picture" src="assets/images/hits/8.png" alt="">
+                    <div class="hit__title">Niletto - Любимка</div>
+                    <i class="hit__play fas fa-play"></i>
+                </div>
+                <div class="hits__item" style="color: #ABABAB;">
+                    <img class="hit__picture" src="assets/images/hits/9.png" alt="">
+                    <div class="hit__title">Dabro - Юность</div>
+                    <i class="hit__play fas fa-play"></i>
+                </div>
+                <div class="hits__item" style="color: #FF8A00;">
+                    <img class="hit__picture" src="assets/images/hits/10.png" alt="">
+                    <div class="hit__title">Йорш - Про Панка</div>
+                    <i class="hit__play fas fa-play"></i>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__copyright">© Piroshok 2021 | all rights reserved </div>
+
+                <div class="footer__socials">
+                    <a target="_blank" class="fab fa-twitter" href=""></a>
+                    <a target="_blank" class="fab fa-telegram-plane" href=""></a>
+                    <a target="_blank" class="fab fa-vk" href="http://vk.com/id0?45595714"></a>
+                    <a target="_blank" class="fab fa-instagram" href="https://www.instagram.com/yarciss_sok/"></a>
+                    <a target="_blank" class="fab fa-youtube"
+                        href="https://www.youtube.com/channel/UCJbPjhT17m-roK14GZhMmgQ/about"></a>
+                    <a target="_blank" class="fab fa-google-play" href=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/main.js"></script>
+</body>
+
+</html>
